@@ -1,0 +1,12 @@
+
+target_sources( ${PROJECT_NAME}
+	PRIVATE
+		${CMAKE_CURRENT_LIST_DIR}/Point2.h
+		${CMAKE_CURRENT_LIST_DIR}/ConvexHull2D.h
+		${CMAKE_CURRENT_LIST_DIR}/ConvexHullPlugin2D.h
+)
+
+target_include_directories( ${PROJECT_NAME}
+	PRIVATE
+		${CMAKE_CURRENT_SOURCE_DIR}
+)
